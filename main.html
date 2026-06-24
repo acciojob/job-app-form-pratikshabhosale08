@@ -7,6 +7,36 @@
 </head>
 
 <body>
+	<form method="post">
+		<label for="name">Name</label>
+		<input type="text" id="name" required>
+		<label for="email">Email</label>
+		<input type="email" id="email" required>
+		<br>
+		<input type="radio" value="Male" name="gender" required>Male
+		
+		<input type="radio" value="Female" name="gender_f" required>Female
+		<br>
+		<label for="laptop">laptop</label>
+		<select>
+			<option>Apple</option>
+			<option>Asus</option>
+			<option>HP</option>
+		</select>
+		<br>
+		<label for="age">Age</label>
+		<input type="number" id="age" required>
+		<label for="dob">Date of Birth</label>
+		<input type="date" id="dob" required>
+		<br>
+		<label for="password">Password</label>
+		<input type="password" id="password" required>
+		<br>
+		<label for="portfolio">Portfolio URL</label>
+		<input type="url" id="portfolio">
+		<input type="button" value="Submit">
+		
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
